@@ -1,0 +1,7 @@
+; LIB_A.def : Declares the module parameters for the DLL.
+
+LIBRARY      "LIB_A"
+DESCRIPTION  'LIB_A Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

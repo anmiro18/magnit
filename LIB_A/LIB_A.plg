@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LIB_A - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP102.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/LIB_A.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\W_TEMP.PRG\LIB_A\ANLZ.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP102.tmp" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP103.tmp" with contents
+[
+d:\W_TEMP.PRG\LIBR\libbas.lib d:\W_TEMP.PRG\LIBR\bib.lib d:\W_TEMP.PRG\LIBR\lib_c.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/LIB_A.pdb" /machine:I386 /def:".\LIB_A.def" /out:"Release/LIB_A.dll" /implib:"Release/LIB_A.lib" 
+.\Release\ANLZ.obj
+.\Release\DspAn.obj
+.\Release\LIB_A.obj
+.\Release\StdAfx.obj
+.\Release\LIB_A.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP103.tmp"
+<h3>Output Window</h3>
+Compiling...
+ANLZ.cpp
+D:\W_TEMP.PRG\hlibbas.h(6) : warning C4190: '<Unknown>' has C-linkage specified, but returns UDT 'CString' which is incompatible with C
+        C:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.h(368) : see declaration of 'CString'
+D:\W_TEMP.PRG\hlibbas.h(7) : warning C4190: '<Unknown>' has C-linkage specified, but returns UDT 'CString' which is incompatible with C
+        C:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.h(368) : see declaration of 'CString'
+D:\W_TEMP.PRG\hlibbas.h(8) : warning C4190: '<Unknown>' has C-linkage specified, but returns UDT 'CString' which is incompatible with C
+        C:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.h(368) : see declaration of 'CString'
+D:\W_TEMP.PRG\hlibbas.h(16) : warning C4190: '<Unknown>' has C-linkage specified, but returns UDT 'CString' which is incompatible with C
+        C:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.h(368) : see declaration of 'CString'
+D:\W_TEMP.PRG\hlibbas.h(18) : warning C4190: '<Unknown>' has C-linkage specified, but returns UDT 'CString' which is incompatible with C
+        C:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.h(368) : see declaration of 'CString'
+D:\W_TEMP.PRG\hlibbas.h(20) : warning C4190: '<Unknown>' has C-linkage specified, but returns UDT 'CString' which is incompatible with C
+        C:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.h(368) : see declaration of 'CString'
+D:\W_TEMP.PRG\hlibbas.h(21) : warning C4190: '<Unknown>' has C-linkage specified, but returns UDT 'CString' which is incompatible with C
+        C:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.h(368) : see declaration of 'CString'
+D:\W_TEMP.PRG\hlibbas.h(22) : warning C4190: '<Unknown>' has C-linkage specified, but returns UDT 'CString' which is incompatible with C
+        C:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.h(368) : see declaration of 'CString'
+D:\W_TEMP.PRG\LIB_A\ANLZ.cpp(208) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+D:\W_TEMP.PRG\LIB_A\ANLZ.cpp(487) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\W_TEMP.PRG\LIB_A\ANLZ.cpp(488) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\W_TEMP.PRG\LIB_A\ANLZ.cpp(490) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\W_TEMP.PRG\LIB_A\ANLZ.cpp(495) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\W_TEMP.PRG\LIB_A\ANLZ.cpp(526) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+D:\W_TEMP.PRG\LIB_A\ANLZ.cpp(526) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+Linking...
+   Creating library Release/LIB_A.lib and object Release/LIB_A.exp
+
+
+
+<h3>Results</h3>
+LIB_A.dll - 0 error(s), 15 warning(s)
+</pre>
+</body>
+</html>

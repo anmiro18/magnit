@@ -1,0 +1,27 @@
+// ProcessInfo.cpp: implementation of the ProcessInfo class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "miKCB.h"
+#include "ProcessInfo.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+ProcessInfo::ProcessInfo()
+{
+
+}
+
+ProcessInfo::~ProcessInfo()
+{
+
+}
